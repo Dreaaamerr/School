@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+*:focus {
+    outline: none;
+  }
+body {
+  background-color: #646664;
+  padding: 250px;
+}
+
+.register {
+    margin: 20px auto;
+    width: 300px;
+}
+
+.register-screen {
+    background-color: #FFF;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.app-title {
+    text-align: center;
+    color: #777;
+}
+
+.register-form {
+    text-align: center;
+}
+.control-group {
+    margin-bottom: 10px;
+}
+
+input {
+    text-align: center;
+    background-color: white;
+    border: 2px solid transparent;
+    border-radius: 3px;
+    font-size: 16px;
+    font-weight: 200;
+    padding: 10px 0;
+    width: 250px;
+    transition: border .5s;
+}
+    
+input:focus {
+    border: 2px solid #646664;
+    box-shadow: none;
+}
+    
+.btn {
+      border: 2px solid transparent;
+      background: #cccccc;
+      color: black;
+      font-size: 16px;
+      line-height: 25px;
+      padding: 10px 0;
+      text-decoration: none;
+      text-shadow: none;
+      border-radius: 3px;
+      box-shadow: none;
+      transition: 0.25s;
+      display: block;
+      width: 250px;
+      margin: 0 auto;
+}
+    
+.btn:hover {
+      background-color: #646664;
+}
+    
+.login-link {
+      font-size: 12px;
+      color: #444;
+      display: block;
+      margin-top: 12px;
+}
+
+.p1 {
+    border: 15px solid transparent; 
+    background: #646664;
+    color: black;
+    font-size: 16px;
+    line-height: 100px;
+    padding: 5px 0px;
+    text-decoration: none;
+    text-shadow: none;
+    border-radius: 10px;
+    box-shadow: none;
+    transition: 0.25s;
+    width: 100px;
+    height: 45px;
+    margin: 0px auto;
+}
+
+.p1:hover {
+    background-color: #cccccc;
+}
+
+
+
